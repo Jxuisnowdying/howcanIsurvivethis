@@ -76,31 +76,3 @@ def music_select():
 st.title(f'Hello World!')
 st.image('https://media.tenor.com/Iu6K9JSRnREAAAAC/van-gogh.gif', use_column_width='always')
 music_option()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

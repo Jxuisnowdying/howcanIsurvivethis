@@ -85,7 +85,3 @@ with cl2:
     st.dataframe(all_data, use_container_width=True)
 if st.button('Clear History'):
     clear_history()
-
-
-
-
