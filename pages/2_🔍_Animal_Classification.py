@@ -11,7 +11,7 @@ st.set_page_config(
 
 #Sidebar
 Sidebar.Decorate()
-Sidebar.feedback()
+Sidebar.mail()
 
 df = pd.read_csv('my_csv/zoo.csv')
 X = df.drop(['animal_name', 'class_type'], axis=1)

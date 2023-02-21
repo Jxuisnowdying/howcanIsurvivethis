@@ -9,7 +9,7 @@ st.set_page_config(
 
 #Sidebar
 Sidebar.Decorate()
-Sidebar.feedback()
+Sidebar.mail()
 
 #Function
 def addtohistory():

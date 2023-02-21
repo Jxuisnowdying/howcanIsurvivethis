@@ -1,0 +1,450 @@
+
+[     UTC     ] Logs for jxuisnowdying-howcanisurvivethis-1--home-3e4ywd.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[17:49:20] 🖥 Provisioning machine...
+[17:27:06] 🚀 Starting up repository: 'howcanisurvivethis', branch: 'master', main module: '1_🏡_Home.py'
+[17:27:06] 🐙 Cloning repository...
+[17:27:09] 🐙 Cloning into '/app/howcanisurvivethis'...
+
+[17:27:09] 🐙 Cloned repository!
+[17:27:09] 🐙 Pulling code changes from Github...
+[17:27:11] 📦 Processing dependencies...
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Collecting pandas==1.4.4
+  Downloading pandas-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.7/11.7 MB 201.8 MB/s eta 0:00:00[2023-02-21 17:27:12.272414] 
+Collecting scikit_learn==1.2.1
+  Downloading scikit_learn-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 240.4 MB/s eta 0:00:00[2023-02-21 17:27:12.513365] 
+Collecting streamlit==1.18.1
+  Downloading streamlit-1.18.1-py2.py3-none-any.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 222.5 MB/s eta 0:00:00[2023-02-21 17:27:12.672255] 
+Collecting python-dateutil>=2.8.1
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 257.2 MB/s eta 0:00:00[2023-02-21 17:27:12.740549] 
+Collecting numpy>=1.18.5
+  Downloading numpy-1.24.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 188.6 MB/s eta 0:00:00[2023-02-21 17:27:13.186408] 
+Collecting pytz>=2020.1
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.4/499.4 KB 189.9 MB/s eta 0:00:00[2023-02-21 17:27:13.311888] 
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting scipy>=1.3.2
+  Downloading scipy-1.10.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 245.2 MB/s eta 0:00:00[2023-02-21 17:27:13.882709] 
+Collecting joblib>=1.1.1
+  Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.0/298.0 KB 258.1 MB/s eta 0:00:00[2023-02-21 17:27:13.982941] 
+Collecting gitpython!=3.1.19
+  Downloading GitPython-3.1.31-py3-none-any.whl (184 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.3/184.3 KB 233.3 MB/s eta 0:00:00[2023-02-21 17:27:14.102059] 
+Collecting watchdog
+  Downloading watchdog-2.2.1-py3-none-manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.0/79.0 KB 222.4 MB/s eta 0:00:00[2023-02-21 17:27:14.198429] 
+Collecting pyarrow>=4.0
+  Downloading pyarrow-11.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.9/34.9 MB 226.8 MB/s eta 0:00:00[2023-02-21 17:27:14.497028] 
+Collecting pydeck>=0.1.dev5
+  Downloading pydeck-0.8.0-py2.py3-none-any.whl (4.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 226.1 MB/s eta 0:00:00[2023-02-21 17:27:14.622591] 
+Collecting cachetools>=4.0
+  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+Collecting pympler>=0.9
+  Downloading Pympler-1.0.1-py3-none-any.whl (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.8/164.8 KB 231.0 MB/s eta 0:00:00
+Collecting tzlocal>=1.1
+  Downloading tzlocal-4.2-py3-none-any.whl (19 kB)
+Collecting protobuf<4,>=3.12
+  Downloading protobuf-3.20.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 245.3 MB/s eta 0:00:00[2023-02-21 17:27:15.140788] 
+Collecting semver
+  Downloading semver-2.13.0-py2.py3-none-any.whl (12 kB)
+Collecting requests>=2.4
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 KB 202.3 MB/s eta 0:00:00[2023-02-21 17:27:15.258653] 
+Collecting packaging>=14.1
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 KB 169.8 MB/s eta 0:00:00[2023-02-21 17:27:15.321035] 
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.4.0-cp39-cp39-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 217.8 MB/s eta 0:00:00[2023-02-21 17:27:15.739327] 
+Collecting altair>=3.2.0
+  Downloading altair-4.2.2-py3-none-any.whl (813 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 813.6/813.6 KB 287.7 MB/s eta 0:00:00[2023-02-21 17:27:15.790596] 
+Collecting typing-extensions>=3.10.0.0
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting validators>=0.2
+  Downloading validators-0.20.0.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting blinker>=1.0.0
+  Downloading blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting tornado>=6.0.3
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 KB 267.3 MB/s eta 0:00:00[2023-02-21 17:27:16.433880] 
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 119.1 MB/s eta 0:00:00[2023-02-21 17:27:16.490197] 
+Collecting importlib-metadata>=1.4
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Collecting rich>=10.11.0
+  Downloading rich-13.3.1-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.0/239.0 KB 139.0 MB/s eta 0:00:00[2023-02-21 17:27:16.780111] 
+Collecting jinja2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 193.7 MB/s eta 0:00:00[2023-02-21 17:27:16.852783] 
+Collecting jsonschema>=3.0
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.4/90.4 KB 215.3 MB/s eta 0:00:00[2023-02-21 17:27:16.919122] 
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting toolz
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 KB 190.3 MB/s eta 0:00:00[2023-02-21 17:27:16.990472] 
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 KB 115.9 MB/s eta 0:00:00[2023-02-21 17:27:17.045450] 
+Collecting zipp>=0.5
+  Downloading zipp-3.14.0-py3-none-any.whl (6.7 kB)
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 KB 180.8 MB/s eta 0:00:00[2023-02-21 17:27:17.307927] 
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (198 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.8/198.8 KB 198.7 MB/s eta 0:00:00[2023-02-21 17:27:17.469927] 
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.14-py2.py3-none-any.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 KB 133.4 MB/s eta 0:00:00[2023-02-21 17:27:17.545407] 
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 KB 151.0 MB/s eta 0:00:00[2023-02-21 17:27:17.589266] 
+Collecting pygments<3.0.0,>=2.14.0
+  Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 287.7 MB/s eta 0:00:00[2023-02-21 17:27:17.656761] 
+Collecting markdown-it-py<3.0.0,>=2.1.0
+  Downloading markdown_it_py-2.1.0-py3-none-any.whl (84 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.5/84.5 KB 167.6 MB/s eta 0:00:00[2023-02-21 17:27:17.711536] 
+Collecting pytz-deprecation-shim
+  Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Collecting decorator>=3.4.0
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 KB 190.6 MB/s eta 0:00:00[2023-02-21 17:27:18.140299] 
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 KB 194.8 MB/s eta 0:00:00[2023-02-21 17:27:18.192654] 
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting tzdata
+  Downloading tzdata-2022.7-py2.py3-none-any.whl (340 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 340.1/340.1 KB 244.2 MB/s eta 0:00:00[2023-02-21 17:27:18.382914] 
+Building wheels for collected packages: validators
+  Building wheel for validators (setup.py): started
+  Building wheel for validators (setup.py): finished with status 'done'
+  Created wheel for validators: filename=validators-0.20.0-py3-none-any.whl size=19581 sha256=b79eabfaae5653b11de8ec37864454eaee89606f6602075dcb05992685adb9a6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-w_8txkcy/wheels/2d/f0/a8/1094fca7a7e5d0d12ff56e0c64675d72aa5cc81a5fc200e849
+Successfully built validators
+Installing collected packages: pytz, charset-normalizer, zipp, watchdog, urllib3, tzdata, typing-extensions, tornado, toolz, toml, threadpoolctl, smmap, six, semver, pyrsistent, pympler, pygments, protobuf, pillow, packaging, numpy, mdurl, MarkupSafe, joblib, idna, entrypoints, decorator, click, certifi, cachetools, blinker, attrs, validators, scipy, requests, pytz-deprecation-shim, python-dateutil, pyarrow, markdown-it-py, jsonschema, jinja2, importlib-metadata, gitdb, tzlocal, scikit_learn, rich, pydeck, pandas, gitpython, altair, streamlit
+Successfully installed MarkupSafe-2.1.2 altair-4.2.2 attrs-22.2.0 blinker-1.5 cachetools-5.3.0 certifi-2022.12.7 charset-normalizer-3.0.1 click-8.1.3 decorator-5.1.1 entrypoints-0.4 gitdb-4.0.10 gitpython-3.1.31 idna-3.4 importlib-metadata-6.0.0 jinja2-3.1.2 joblib-1.2.0 jsonschema-4.17.3 markdown-it-py-2.1.0 mdurl-0.1.2 numpy-1.24.2 packaging-23.0 pandas-1.4.4 pillow-9.4.0 protobuf-3.20.3 pyarrow-11.0.0 pydeck-0.8.0 pygments-2.14.0 pympler-1.0.1 pyrsistent-0.19.3 python-dateutil-2.8.2 pytz-2022.7.1 pytz-deprecation-shim-0.1.0.post0 requests-2.28.2 rich-13.3.1 scikit_learn-1.2.1 scipy-1.10.1 semver-2.13.0 six-1.16.0 smmap-5.0.0 streamlit-1.18.1 threadpoolctl-3.1.0 toml-0.10.2 toolz-0.12.0 tornado-6.2 typing-extensions-4.5.0 tzdata-2022.7 tzlocal-4.2 urllib3-1.26.14 validators-0.20.0 watchdog-2.2.1 zipp-3.14.0
+WARNING: You are using pip version 22.0.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+Checking if Streamlit is installed
+Found Streamlit version 1.18.1 in the environment
+Streamlit 1.18.1 is present. Installing protobuf 3.20.1
+Collecting protobuf==3.20.1
+  Downloading protobuf-3.20.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 28.8 MB/s eta 0:00:00[2023-02-21 17:27:39.580591] 
+Installing collected packages: protobuf
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.3
+    Uninstalling protobuf-3.20.3:
+      Successfully uninstalled protobuf-3.20.3
+Successfully installed protobuf-3.20.1
+WARNING: You are using pip version 22.0.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[17:27:41] 🐍 Python dependencies were installed from /app/howcanisurvivethis/requirements.txt using pip.
+Check if streamlit is installed
+Streamlit is already installed
+[17:27:42] 📦 Processed dependencies!
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+
+
+[17:34:33] 🐙 Pulling code changes from Github...
+[17:34:44] 🐙 Pulling code changes from Github...
+[17:34:55] 🐙 Pulling code changes from Github...
+[17:35:05] 🐙 Pulling code changes from Github...
+[17:35:16] 🐙 Pulling code changes from Github...
+[17:35:27] ❗️ Updating the app files has failed: git pull, cmd: sudo -u appuser GIT_SSH_COMMAND='ssh -i /home/appuser/.ssh/id_github -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o "LogLevel ERROR"' git fetch origin && sudo -u appuser git reset --hard origin/master: error: exit status 128: error: unable to create file .streamlit/config.toml: Permission denied
+fatal: Could not reset index file to revision 'origin/master'.
+
+[17:38:56] 🐙 Pulling code changes from Github...
+[17:39:07] 🐙 Pulling code changes from Github...
+[17:39:19] 🐙 Pulling code changes from Github...
+[17:39:30] 🐙 Pulling code changes from Github...
+[17:39:41] 🐙 Pulling code changes from Github...
+[17:39:52] ❗️ Updating the app files has failed: git pull, cmd: sudo -u appuser GIT_SSH_COMMAND='ssh -i /home/appuser/.ssh/id_github -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o "LogLevel ERROR"' git fetch origin && sudo -u appuser git reset --hard origin/master: error: exit status 128: error: unable to create file .streamlit/config.toml: Permission denied
+fatal: Could not reset index file to revision 'origin/master'.
+
+[17:42:27] 🐙 Pulling code changes from Github...
+2023-02-21 17:42:34.016 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/app/howcanisurvivethis/pages/4_🔢_Simple_Calculator.py", line 54, in <module>
+    history = pd.read_csv('my_csv/calculator_history.csv')
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1234, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 75, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 551, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[17:42:38] 🐙 Pulling code changes from Github...
+[17:42:49] 🐙 Pulling code changes from Github...
+[17:43:00] 🐙 Pulling code changes from Github...
+2023-02-21 17:43:03.236 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/app/howcanisurvivethis/pages/4_🔢_Simple_Calculator.py", line 54, in <module>
+    history = pd.read_csv('my_csv/calculator_history.csv')
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1234, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/appuser/venv/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 75, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 551, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+[17:43:11] 🐙 Pulling code changes from Github...
+[17:43:22] ❗️ Updating the app files has failed: git pull, cmd: sudo -u appuser GIT_SSH_COMMAND='ssh -i /home/appuser/.ssh/id_github -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o "LogLevel ERROR"' git fetch origin && sudo -u appuser git reset --hard origin/master: error: exit status 128: error: unable to create file .streamlit/config.toml: Permission denied
+fatal: Could not reset index file to revision 'origin/master'.
+
+[17:45:54] 🐙 Pulling code changes from Github...
+[17:46:05] 🐙 Pulling code changes from Github...
+[17:46:16] 🐙 Pulling code changes from Github...
+[17:46:27] 🐙 Pulling code changes from Github...
+[17:46:38] 🐙 Pulling code changes from Github...
+[17:46:49] ❗️ Updating the app files has failed: git pull, cmd: sudo -u appuser GIT_SSH_COMMAND='ssh -i /home/appuser/.ssh/id_github -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o "LogLevel ERROR"' git fetch origin && sudo -u appuser git reset --hard origin/master: error: exit status 128: error: unable to create file .streamlit/config.toml: Permission denied
+fatal: Could not reset index file to revision 'origin/master'.
+
+[17:49:21] 🎛 Preparing system...
+[17:49:21] ⛓ Spinning up manager process...
+[17:49:19] 🚀 Starting up repository: 'howcanisurvivethis', branch: 'master', main module: '1_🏡_Home.py'
+[17:49:19] 🐙 Cloning repository...
+[17:49:23] 🐙 Cloning into '/app/howcanisurvivethis'...
+
+[17:49:23] 🐙 Cloned repository!
+[17:49:23] 🐙 Pulling code changes from Github...
+[17:49:24] 📦 Processing dependencies...
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Collecting pandas==1.4.4
+  Downloading pandas-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.7/11.7 MB 243.3 MB/s eta 0:00:00[2023-02-21 17:49:25.949146] 
+Collecting scikit_learn==1.2.1
+  Downloading scikit_learn-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 262.2 MB/s eta 0:00:00[2023-02-21 17:49:26.174650] 
+Collecting streamlit==1.18.1
+  Downloading streamlit-1.18.1-py2.py3-none-any.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 251.7 MB/s eta 0:00:00[2023-02-21 17:49:26.316364] 
+Collecting pytz>=2020.1
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.4/499.4 KB 145.2 MB/s eta 0:00:00[2023-02-21 17:49:26.434653] 
+Collecting numpy>=1.18.5
+  Downloading numpy-1.24.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 275.6 MB/s eta 0:00:00[2023-02-21 17:49:26.864122] 
+Collecting python-dateutil>=2.8.1
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 274.6 MB/s eta 0:00:00[2023-02-21 17:49:26.927083] 
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting joblib>=1.1.1
+  Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.0/298.0 KB 271.8 MB/s eta 0:00:00[2023-02-21 17:49:27.047455] 
+Collecting scipy>=1.3.2
+  Downloading scipy-1.10.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 193.3 MB/s eta 0:00:00[2023-02-21 17:49:27.413651] 
+Collecting pydeck>=0.1.dev5
+  Downloading pydeck-0.8.0-py2.py3-none-any.whl (4.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 203.6 MB/s eta 0:00:00[2023-02-21 17:49:27.571593] 
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.4.0-cp39-cp39-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 272.2 MB/s eta 0:00:00[2023-02-21 17:49:27.944533] 
+Collecting semver
+  Downloading semver-2.13.0-py2.py3-none-any.whl (12 kB)
+Collecting packaging>=14.1
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 KB 184.8 MB/s eta 0:00:00[2023-02-21 17:49:28.039091] 
+Collecting tzlocal>=1.1
+  Downloading tzlocal-4.2-py3-none-any.whl (19 kB)
+Collecting protobuf<4,>=3.12
+  Downloading protobuf-3.20.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 251.9 MB/s eta 0:00:00[2023-02-21 17:49:28.409328] 
+Collecting validators>=0.2
+  Downloading validators-0.20.0.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pympler>=0.9
+  Downloading Pympler-1.0.1-py3-none-any.whl (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.8/164.8 KB 179.7 MB/s eta 0:00:00[2023-02-21 17:49:28.878227] 
+Collecting importlib-metadata>=1.4
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Collecting altair>=3.2.0
+  Downloading altair-4.2.2-py3-none-any.whl (813 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 813.6/813.6 KB 287.4 MB/s eta 0:00:00[2023-02-21 17:49:29.015424] 
+Collecting pyarrow>=4.0
+  Downloading pyarrow-11.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.9/34.9 MB 247.6 MB/s eta 0:00:00[2023-02-21 17:49:29.306132] 
+Collecting rich>=10.11.0
+  Downloading rich-13.3.1-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.0/239.0 KB 264.0 MB/s eta 0:00:00[2023-02-21 17:49:29.497505] 
+Collecting watchdog
+  Downloading watchdog-2.2.1-py3-none-manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.0/79.0 KB 138.7 MB/s eta 0:00:00[2023-02-21 17:49:29.596502] 
+Collecting requests>=2.4
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 KB 209.8 MB/s eta 0:00:00[2023-02-21 17:49:29.666748] 
+Collecting typing-extensions>=3.10.0.0
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 182.3 MB/s eta 0:00:00[2023-02-21 17:49:29.760109] 
+Collecting blinker>=1.0.0
+  Downloading blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting tornado>=6.0.3
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 KB 215.3 MB/s eta 0:00:00[2023-02-21 17:49:29.897934] 
+Collecting cachetools>=4.0
+  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting gitpython!=3.1.19
+  Downloading GitPython-3.1.31-py3-none-any.whl (184 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.3/184.3 KB 155.8 MB/s eta 0:00:00[2023-02-21 17:49:30.066215] 
+Collecting toolz
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 KB 162.2 MB/s eta 0:00:00[2023-02-21 17:49:30.116051] 
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting jinja2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 256.8 MB/s eta 0:00:00[2023-02-21 17:49:30.196358] 
+Collecting jsonschema>=3.0
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.4/90.4 KB 189.5 MB/s eta 0:00:00[2023-02-21 17:49:30.271651] 
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 KB 167.5 MB/s eta 0:00:00[2023-02-21 17:49:30.324297] 
+Collecting zipp>=0.5
+  Downloading zipp-3.14.0-py3-none-any.whl (6.7 kB)
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 KB 177.8 MB/s eta 0:00:00[2023-02-21 17:49:30.556057] 
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.14-py2.py3-none-any.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 KB 134.5 MB/s eta 0:00:00[2023-02-21 17:49:30.660426] 
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 KB 234.1 MB/s eta 0:00:00[2023-02-21 17:49:30.711160] 
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (198 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.8/198.8 KB 277.3 MB/s eta 0:00:00[2023-02-21 17:49:30.817373] 
+Collecting markdown-it-py<3.0.0,>=2.1.0
+  Downloading markdown_it_py-2.1.0-py3-none-any.whl (84 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.5/84.5 KB 177.6 MB/s eta 0:00:00[2023-02-21 17:49:30.874716] 
+Collecting pygments<3.0.0,>=2.14.0
+  Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 282.2 MB/s eta 0:00:00[2023-02-21 17:49:30.929790] 
+Collecting pytz-deprecation-shim
+  Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Collecting decorator>=3.4.0
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 KB 110.0 MB/s eta 0:00:00[2023-02-21 17:49:31.336346] 
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 KB 190.7 MB/s eta 0:00:00[2023-02-21 17:49:31.396370] 
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting tzdata
+  Downloading tzdata-2022.7-py2.py3-none-any.whl (340 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 340.1/340.1 KB 279.6 MB/s eta 0:00:00[2023-02-21 17:49:31.568415] 
+Building wheels for collected packages: validators
+  Building wheel for validators (setup.py): started
+  Building wheel for validators (setup.py): finished with status 'done'
+  Created wheel for validators: filename=validators-0.20.0-py3-none-any.whl size=19581 sha256=a0f4e052f3a0b8449b4bffca3681128467eadb25b829d09856da355fd528809c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-fk4m5nc0/wheels/2d/f0/a8/1094fca7a7e5d0d12ff56e0c64675d72aa5cc81a5fc200e849
+Successfully built validators
+Installing collected packages: pytz, charset-normalizer, zipp, watchdog, urllib3, tzdata, typing-extensions, tornado, toolz, toml, threadpoolctl, smmap, six, semver, pyrsistent, pympler, pygments, protobuf, pillow, packaging, numpy, mdurl, MarkupSafe, joblib, idna, entrypoints, decorator, click, certifi, cachetools, blinker, attrs, validators, scipy, requests, pytz-deprecation-shim, python-dateutil, pyarrow, markdown-it-py, jsonschema, jinja2, importlib-metadata, gitdb, tzlocal, scikit_learn, rich, pydeck, pandas, gitpython, altair, streamlit
+Successfully installed MarkupSafe-2.1.2 altair-4.2.2 attrs-22.2.0 blinker-1.5 cachetools-5.3.0 certifi-2022.12.7 charset-normalizer-3.0.1 click-8.1.3 decorator-5.1.1 entrypoints-0.4 gitdb-4.0.10 gitpython-3.1.31 idna-3.4 importlib-metadata-6.0.0 jinja2-3.1.2 joblib-1.2.0 jsonschema-4.17.3 markdown-it-py-2.1.0 mdurl-0.1.2 numpy-1.24.2 packaging-23.0 pandas-1.4.4 pillow-9.4.0 protobuf-3.20.3 pyarrow-11.0.0 pydeck-0.8.0 pygments-2.14.0 pympler-1.0.1 pyrsistent-0.19.3 python-dateutil-2.8.2 pytz-2022.7.1 pytz-deprecation-shim-0.1.0.post0 requests-2.28.2 rich-13.3.1 scikit_learn-1.2.1 scipy-1.10.1 semver-2.13.0 six-1.16.0 smmap-5.0.0 streamlit-1.18.1 threadpoolctl-3.1.0 toml-0.10.2 toolz-0.12.0 tornado-6.2 typing-extensions-4.5.0 tzdata-2022.7 tzlocal-4.2 urllib3-1.26.14 validators-0.20.0 watchdog-2.2.1 zipp-3.14.0
+WARNING: You are using pip version 22.0.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+Checking if Streamlit is installed
+Found Streamlit version 1.18.1 in the environment
+Streamlit 1.18.1 is present. Installing protobuf 3.20.1
+Collecting protobuf==3.20.1
+  Downloading protobuf-3.20.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 31.6 MB/s eta 0:00:00[2023-02-21 17:49:50.496478] 
+Installing collected packages: protobuf
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.3
+    Uninstalling protobuf-3.20.3:
+      Successfully uninstalled protobuf-3.20.3
+Successfully installed protobuf-3.20.1
+WARNING: You are using pip version 22.0.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[17:49:52] 🐍 Python dependencies were installed from /app/howcanisurvivethis/requirements.txt using pip.
+Check if streamlit is installed
+Streamlit is already installed
+[17:49:53] 📦 Processed dependencies!
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+
+
+/home/appuser/venv/lib/python3.9/site-packages/sklearn/base.py:420: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(

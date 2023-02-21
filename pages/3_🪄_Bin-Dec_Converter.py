@@ -11,7 +11,7 @@ st.set_page_config(
 
 #Sidebar
 Sidebar.Decorate()
-Sidebar.feedback()
+Sidebar.mail()
 
 #Function
 def bin2dec(bin_str):
@@ -51,10 +51,10 @@ st.title('Binary-Decimal Converter')
 col1, col2 = st.columns(2)
 with col1:
     form = st.form(key='form')
-    dec_int = form.number_input('Enter Decimal:', min_value=0, max_value=None, value=0, step=1)
+    dec_int = form.text_input('Enter Decimal:')
     submitdec = form.form_submit_button('Convert')
 if submitdec:
-    bin_str = '{:08b}'.format(dec_int)
+    bin_str = '{:08b}'.format(int(dec_int))
     form.write(f'Binary of {dec_int}: {bin_str}')
     add_historydec2bin()
 with col2:
