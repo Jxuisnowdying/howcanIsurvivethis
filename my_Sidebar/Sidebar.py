@@ -1,14 +1,12 @@
 import streamlit as st
-from datetime import date, datetime
+from datetime import *
 
 def Decorate():
+    tz = timezone(timedelta(hours=7))
     time = datetime.now()
-    st.sidebar.metric(label=date.today().strftime('%B %d, %Y'), value=time.strftime('%H:%M'))
+    new_time = time.astimezone(tz)
+    st.sidebar.metric(label=date.today().strftime('%B %d, %Y'), value=new_time.strftime('%H:%M'))
     st.sidebar.image('my_Sidebar/mycat.gif')
-
-def submit():
-    st.session_state.feedback = st.session_state.widget
-    st.session_state.widget = ''
 
 def mail():
     st.sidebar.subheader('Feedback')
